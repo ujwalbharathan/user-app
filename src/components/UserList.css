@@ -1,0 +1,41 @@
+.person{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    background-color: rgb(27, 26, 26);
+    background-origin: border-box;
+    color: white;
+}
+.paginationBttns{
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+.paginationBttns a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+}
+.paginationBttns a:hover{
+    color: white;
+    background-color: black;
+}
+.paginationActive a{
+    color: white;
+    background-color: black;
+}
+.nextBttn{
+    text-decoration: none;
+}
+.previousBttn{
+    text-decoration: none;   
+}
